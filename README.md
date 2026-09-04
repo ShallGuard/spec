@@ -24,7 +24,8 @@ so that one change reaches every repository.
 ## Status
 
 The specification is a draft for discussion. Section 11 of
-[SPEC.md](SPEC.md) lists the open decisions. The `schemas/` and `fixtures/`
+[SPEC.md](SPEC.md) lists the open decisions. Each decision has a
+[discussion](https://github.com/shallguard/spec/discussions) where you can reply. The `schemas/` and `fixtures/`
 directories of the conformance suite do not exist yet.
 
 ## Links

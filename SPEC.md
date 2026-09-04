@@ -307,15 +307,18 @@ same evidence rules as the implementations.
 ## 11. Open decisions
 
 The maintainer decides these points before the numbering becomes final.
+Each point has a discussion in this repository. Reply there.
 
-1. **Where `fmt` and `check` live for a repository without Rust.** The
+1. **Where `fmt` and `check` live for a repository without Rust**
+   ([discussion 1](https://github.com/shallguard/spec/discussions/1)). The
    document grammar belongs to the core. One answer is that the core binary
    ships `fmt` and `check` for every ecosystem, and each language package
    wraps the core binary together with its adapter. The other answer is a
    new document parser in each language. That answer breaks the one-core
    principle. The recommendation is to wrap the binary and to treat the
    core as the one distributed engine, in the way that ruff and biome do.
-2. **Anchor syntax per language.** This draft fixes the model, not the
+2. **Anchor syntax per language**
+   ([discussion 2](https://github.com/shallguard/spec/discussions/2)). This draft fixes the model, not the
    surface syntax. A language without attributes, such as Go or C, needs an
    exact comment grammar, for example `// shallguard:enforces REQ-X-001`.
    The choice is one shared comment grammar in this specification, or
@@ -323,15 +326,18 @@ The maintainer decides these points before the numbering becomes final.
    recommendation is one shared comment grammar for languages without
    attributes, and native attributes or decorators where the language has
    them.
-3. **The `unknown` oracle class in a hard area.** A strict reading says
+3. **The `unknown` oracle class in a hard area**
+   ([discussion 3](https://github.com/shallguard/spec/discussions/3)). A strict reading says
    that a hard area demands classified evidence. A pragmatic reading says
    that `unknown` equals `present` until the adapters mature. The
    recommendation is that `unknown` behaves as `present` in version 1.
-4. **Requirement areas across languages.** Can one requirement be enforced
+4. **Requirement areas across languages**
+   ([discussion 4](https://github.com/shallguard/spec/discussions/4)). Can one requirement be enforced
    in Rust and verified in Python? The merged-inventory model permits it.
    The question is whether version 1 permits it or requires one area per
    language until the workflow is proven. The recommendation is to permit
    it, because a service with several languages is the target user.
-5. **Naming.** The choice is `shallguard-inventory` as the schema name, or
+5. **Naming**
+   ([discussion 5](https://github.com/shallguard/spec/discussions/5)). The choice is `shallguard-inventory` as the schema name, or
    one project-wide name for all three formats. The recommendation is to
    keep `shallguard-inventory` and to add no separate brand.
