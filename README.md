@@ -12,6 +12,7 @@ and how people work together in every repository.
 
 | Document | Content |
 |---|---|
+| [WHY.md](WHY.md) | Why a team writes requirements when a coding agent writes the code. |
 | [SPEC.md](SPEC.md) | The interchange format between the core and the language adapters, the adapter protocol, and the conformance rules. Draft 0.1. |
 | [GLOSSARY.md](GLOSSARY.md) | The terms that every ShallGuard document uses. |
 | [WRITING_STYLE.md](WRITING_STYLE.md) | The mandatory writing rules, Simplified Technical English, for every document in every repository. |
