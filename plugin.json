@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "shallguard",
+  "version": "0.1.0",
+  "description": "The ShallGuard skill for a coding agent: requirements first, honest evidence, and the traceability check as the gate. Works with every ShallGuard implementation.",
+  "homepage": "https://shallguard.com",
+  "repository": "https://github.com/shallguard/spec",
+  "license": "MIT",
+  "keywords": ["shallguard", "requirements", "traceability", "testing"]
+}

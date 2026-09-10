@@ -1,0 +1,16 @@
+{
+  "name": "shallguard",
+  "description": "The ShallGuard skill for a coding agent, the same for every ShallGuard implementation.",
+  "owner": {
+    "name": "ShallGuard",
+    "url": "https://github.com/shallguard"
+  },
+  "plugins": [
+    {
+      "name": "shallguard",
+      "source": "./",
+      "description": "The ShallGuard skill for a coding agent: requirements first, honest evidence, and the traceability check as the gate.",
+      "category": "development"
+    }
+  ]
+}

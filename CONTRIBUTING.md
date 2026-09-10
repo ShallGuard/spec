@@ -70,8 +70,10 @@ SHALL, SHALL NOT, or MAY. ShallGuard needs that form.
 
 ## Work with a coding agent
 
-If you work with a coding agent, install the ShallGuard skill of the
-repository and use it. The skill teaches the agent to read the requirement
+If you work with a coding agent, install the ShallGuard skill and use it.
+The skill lives in [`skills/shallguard/`](skills/shallguard/) of the
+specification repository, and the README of that repository shows the two
+ways to install it. The skill teaches the agent to read the requirement
 before it changes the code that makes the requirement true. The agent then
 follows the requirements-first sequence, keeps the IDs stable, anchors
 honest evidence, and fixes each check failure at its source.
