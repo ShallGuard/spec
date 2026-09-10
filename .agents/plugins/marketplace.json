@@ -1,0 +1,22 @@
+{
+  "name": "shallguard",
+  "interface": {
+    "displayName": "ShallGuard"
+  },
+  "plugins": [
+    {
+      "name": "shallguard",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/shallguard/spec.git",
+        "path": ".",
+        "ref": "master"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
